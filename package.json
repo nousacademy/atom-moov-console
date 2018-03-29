@@ -1,0 +1,23 @@
+{
+  "name": "moov-console",
+  "main": "./lib/main",
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "version": "0.0.0",
+  "description": "Use Moov Console without using Moov Console. =D",
+  "keywords": [],
+  "repository": "https://github.com/atom/moov-console",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "etch": "^0.12.8",
+    "atom": "0.4.1"
+  }
+}
