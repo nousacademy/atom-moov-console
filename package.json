@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "etch": "^0.12.8",
-    "atom": "0.4.1"
+    "atom-ui": "0.4.1"
   }
 }
