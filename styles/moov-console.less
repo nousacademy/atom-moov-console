@@ -20,9 +20,7 @@ h3{
 }
 
 // action buttons
-#generate-autodeploy,
-#execute-autodeploy,
-#moov-clean{
+.btn.mv-consoleBtn{
   padding-left: 44px;
   padding-right: 44px;
   border: 1px solid rgb(255, 255, 255);
@@ -32,4 +30,15 @@ h3{
   cursor: pointer;
   text-decoration: none;
   padding: 0.3em 1em !important;
+}
+
+// remove config item btn
+.btn.btn-remove{
+  background: red;
+  color: white;
+  border-radius: 20px;
+
+  &:focus{
+    outline: none;
+  }
 }
