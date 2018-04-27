@@ -7,6 +7,7 @@
 3. print readme.md to Moovweb console, for additional project information
 4. Get all URLs to current project
 5. Avoid going to https://moovweb.com =)
+6. Store any project related metadata
 
 ### Requirements  
 
