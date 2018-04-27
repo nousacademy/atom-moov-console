@@ -11,3 +11,11 @@
 ### Requirements  
 
 * In order for this package to be of any use to you, you must have an account with https://moovweb.com  
+
+#### Opened Moovweb Console
+
+![alt text](https://raw.githubusercontent.com/nousacademy/atom-moov-console/master/img/console_opened.png)
+
+#### Closed Moovweb Console
+
+![alt text](https://raw.githubusercontent.com/nousacademy/atom-moov-console/master/img/console_closed.png)
