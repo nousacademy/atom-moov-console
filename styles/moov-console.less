@@ -19,26 +19,36 @@ h3{
   font-family: inherit;
 }
 
-// action buttons
-.btn.mv-consoleBtn{
-  padding-left: 44px;
-  padding-right: 44px;
-  border: 1px solid rgb(255, 255, 255);
-  color: rgb(255, 255, 255);
-  transition: all .3s ease-in-out;
-  border-radius: 3px;
-  cursor: pointer;
-  text-decoration: none;
-  padding: 0.3em 1em !important;
-}
 
-// remove config item btn
-.btn.btn-remove{
-  background: red;
-  color: white;
-  border-radius: 20px;
+.btn{
 
-  &:focus{
-    outline: none;
+  // action buttons
+  &.mv-consoleBtn{
+    padding-left: 44px;
+    padding-right: 44px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: all .3s ease-in-out;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 0.3em 1em !important;
   }
+  // remove config item btn
+  &.btn-remove,
+  // cancel config item edit btn
+  &.btn-cancel{
+    background: red;
+    color: white;
+  }
+  // edit config item btn
+  &.btn-edit{
+    color: #cebf6c;
+  }
+  // save changes to config item btn
+  &.btn-save{
+    background: #338e33;
+    color: white;
+  }
+
 }
