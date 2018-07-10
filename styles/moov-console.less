@@ -50,5 +50,32 @@ h3{
     background: #338e33;
     color: white;
   }
+  // save config btn
+  &.save-config{
+    margin-left: 100px;
+  }
+  // clear logs btn
+  &.btn-clear{
+    background: white;
+    color: black;
+  }
+  // deploy btn
+  &.deploy{
+    background: red;
+  }
+  &.deploy:hover{
+    background: red;
+    animation: pulse 0.5s infinite;
+  }
 
+}
+
+@keyframes pulse {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: white;
+    color: red;
+  }
 }
